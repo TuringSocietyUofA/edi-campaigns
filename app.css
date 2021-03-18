@@ -61,3 +61,36 @@ img {
 #spotlight-story {
   cursor: auto;
 }
+
+#work_life {
+  display: block;
+}
+
+#imposter_syndrome {
+  display: none;
+}
+
+button {
+  background-color: transparent;
+  color: #457554;
+  font-family: 'Playfair Display', serif;
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.campaign-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-work-life {
+  text-decoration: underline;
+}
